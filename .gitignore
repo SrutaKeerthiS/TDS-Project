@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Output folders
+discourse_json/
+markdown_files/
+
+# Environment variables and system files
+.env
+.DS_Store
+
+# Local scripts (optional)
+preprocess.py
+discourse_scrapper.py
+html_crawler.py
+
+auth.json
+metadata.json
